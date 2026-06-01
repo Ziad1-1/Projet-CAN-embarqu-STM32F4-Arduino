@@ -18,6 +18,7 @@ Arduino UNO + CAN Shield → (CAN 500 kbps) → STM32F407 → (UART 115200 bps) 
 ## Matériel utilisé
 
 | Composant | Modèle |
+|---|---|
 | Microcontrôleur | STM32F407VGT6 (Discovery) |
 | Nœud CAN | Arduino UNO + MCP2515 |
 | Transceiver CAN | MCP2551 |
@@ -54,4 +55,6 @@ Arduino UNO + CAN Shield → (CAN 500 kbps) → STM32F407 → (UART 115200 bps) 
 
 ## Rapport complet
 
+Voir `rapport.pdf` pour la documentation complète :
+architecture, registres configurés, flowchart, code source commenté.
 Voir `rapport.pdf` pour la documentation complète : architecture, registres configurés, flowchart, code source commenté.
